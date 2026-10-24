@@ -126,7 +126,7 @@ If an upstream data request fails, the API returns an HTTP 502 response with a u
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_BACKEND_REPOSITORY_URL>
+git clone https://github.com/Madesh-cse/wind-forecast-dashboard-backend.git
 cd wind-forecast-dashboard-backend
 ```
 
