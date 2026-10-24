@@ -20,7 +20,7 @@ app.add_middleware(
         origin.strip()
         for origin in os.getenv(
             "CORS_ORIGINS",
-            "http://localhost:8080,https://wind-forecast-dashboard-frontend.vercel.app/",
+            "http://localhost:8080,https://wind-forecast-dashboard-frontend.vercel.app",
         ).split(",")
         if origin.strip()
     ],
